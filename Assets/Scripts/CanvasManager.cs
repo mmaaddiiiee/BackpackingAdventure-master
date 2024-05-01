@@ -4,13 +4,13 @@ using UnityEngine.UI;
 public class CanvasManager : MonoBehaviour
 {
     public Canvas overlayCanvas;
-    public Button triggerButton;
+    public Button Backpack;
 
     void Start()
     {
-        if (triggerButton != null)
+        if (Backpack != null)
         {
-            triggerButton.onClick.AddListener(EnableOverlayCanvas);
+            Backpack.onClick.AddListener(EnableOverlayCanvas);
         }
         else
         {

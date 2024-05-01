@@ -269,7 +269,6 @@ GameObject:
   - component: {fileID: 537853631}
   - component: {fileID: 537853630}
   - component: {fileID: 537853629}
-  - component: {fileID: 537853632}
   m_Layer: 5
   m_Name: Backpack
   m_TagString: Untagged
@@ -379,20 +378,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537853627}
   m_CullTransparentMesh: 1
---- !u!114 &537853632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537853627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ac6924b02856e9469ed8ed1e68273e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  overlayCanvas: {fileID: 1530729453}
-  triggerButton: {fileID: 537853629}
 --- !u!1 &802260792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,7 +1260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1834077306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1289,7 +1274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overlayCanvas: {fileID: 1530729453}
-  triggerButton: {fileID: 537853629}
+  Backpack: {fileID: 537853629}
 --- !u!4 &1834077307
 Transform:
   m_ObjectHideFlags: 0
