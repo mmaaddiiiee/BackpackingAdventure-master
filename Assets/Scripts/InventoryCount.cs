@@ -8,4 +8,5 @@ public class InventoryCount
     public static int rope {get; set;}
     public static int knife {get; set;}
     public static int ductTape {get; set;}
+    public static int ladder {get; set;}
 }
